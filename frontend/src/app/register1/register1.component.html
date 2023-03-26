@@ -1,0 +1,26 @@
+<mat-card class="register-card">
+    <mat-card-title>Register Now</mat-card-title>
+    <br/>
+    <div class="registration-form-page-1">
+        <h4 id="is-nicotin-tobacco-user">Nicotin/Tobacco</h4>
+        <mat-radio-group>
+            <mat-radio-button value="1">Yes</mat-radio-button>
+            <mat-radio-button value="2">No</mat-radio-button>
+        </mat-radio-group> 
+        <br/> <br/>
+        <mat-card-content>Just few last details to help us find the right plan</mat-card-content>
+        <br/>
+        <section class="medical-history">
+            <h4>Do you have an existing illness or medical history?</h4>
+            <p><mat-checkbox formControlName="is-diabetic">Diabetes</mat-checkbox></p>
+            <p><mat-checkbox formControlName="is-hypertensed">Hypertension</mat-checkbox></p>
+        </section>
+        <button mat-raised-button color="primary" style="margin-left:12px">Back</button>
+        <button mat-raised-button style="margin-left:440px" color="primary" type="button" routerLink="/register2">Next</button>
+        <p></p>
+        
+
+    </div>
+ 
+
+</mat-card>
